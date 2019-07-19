@@ -6,18 +6,20 @@
 //
 
 import UIKit
-
+import Firebase
 
 
 class WelcomeViewController: UIViewController {
 
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //TODO: Check to see if there is a user logged in already, if so send them straight through to the ChatViewController.
-    
-
+        //If there is a logged in user, by pass this screen and go straight to ChatViewController
+        
+        if Auth.auth().currentUser != nil {
+            performSegue(withIdentifier: "goToChat", sender: self)
+        }
     
     }
 
