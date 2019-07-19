@@ -25,9 +25,14 @@ class LogInViewController: UIViewController {
     }
 
    
+<<<<<<< HEAD
     //Log in an existing user
     
     @IBAction func logInPressed(_ sender: AnyObject) {
+=======
+    @IBAction func logInPressed(_ sender: AnyObject) {
+
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
         
         SVProgressHUD.show()
         

@@ -17,6 +17,7 @@
 		63E28B311B9A337600FBF6E0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28B2C1B9A337600FBF6E0 /* LogInViewController.swift */; };
 		63E28B321B9A337600FBF6E0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28B2D1B9A337600FBF6E0 /* RegisterViewController.swift */; };
 		63E28B331B9A337600FBF6E0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28B2E1B9A337600FBF6E0 /* WelcomeViewController.swift */; };
+<<<<<<< HEAD
 		63EBB3031D97FEBD004175E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB3021D97FEBD004175E5 /* GoogleService-Info.plist */; };
 		9790777F062601BADDD0A14A /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59FA75CBB3BA14659F7FAAF /* Pods_Flash_Chat.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,11 @@
 		};
 /* End PBXCopyFilesBuildPhase section */
 
+=======
+		63EBB3051D98004B004175E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB3041D98004B004175E5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 /* Begin PBXFileReference section */
 		6321A9B61B94EBA10053D2E7 /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6321A9BA1B94EBA10053D2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,12 +53,16 @@
 		63E28B2C1B9A337600FBF6E0 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		63E28B2D1B9A337600FBF6E0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		63E28B2E1B9A337600FBF6E0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		63EBB3021D97FEBD004175E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63EBB3061D981AA1004175E5 /* Flash Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Flash Chat.entitlements"; sourceTree = "<group>"; };
 		74301AAF5315B84836ACBCC9 /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		920D75E4DAC0964C2C729E6E /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
 		ADA4AFB61FAB759100E0738B /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59FA75CBB3BA14659F7FAAF /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		63EBB3041D98004B004175E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				9790777F062601BADDD0A14A /* Pods_Flash_Chat.framework in Frameworks */,
+=======
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +153,7 @@
 		6321A9EB1B94EC170053D2E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				63EBB3041D98004B004175E5 /* LaunchScreen.storyboard */,
 				63E28B281B9A336600FBF6E0 /* Main.storyboard */,
 				6321A9E91B94EBEE0053D2E7 /* Custom Cell */,
 			);
@@ -195,11 +209,16 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
+<<<<<<< HEAD
 				LastUpgradeCheck = 0900;
+=======
+				LastUpgradeCheck = 0800;
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
 					6321A9B51B94EBA10053D2E7 = {
 						CreatedOnToolsVersion = 6.4;
+<<<<<<< HEAD
 						DevelopmentTeam = 3ECFYJZ64T;
 						LastSwiftMigration = 0900;
 						SystemCapabilities = {
@@ -207,6 +226,10 @@
 								enabled = 1;
 							};
 						};
+=======
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 					};
 				};
 			};
@@ -236,11 +259,13 @@
 				63E28B291B9A336600FBF6E0 /* Main.storyboard in Resources */,
 				63EBB3031D97FEBD004175E5 /* GoogleService-Info.plist in Resources */,
 				6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */,
+				63EBB3051D98004B004175E5 /* LaunchScreen.storyboard in Resources */,
 				6321A9E51B94EBE70053D2E7 /* MessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 
 /* Begin PBXShellScriptBuildPhase section */
 		35EE0AB45D6EE7E8030FAAB2 /* [CP] Embed Pods Frameworks */ = {
@@ -305,6 +330,8 @@
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
+=======
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 
 /* Begin PBXSourcesBuildPhase section */
 		6321A9B21B94EBA10053D2E7 /* Sources */ = {
@@ -344,8 +371,11 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+<<<<<<< HEAD
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
+=======
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -369,7 +399,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,8 +432,11 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+<<<<<<< HEAD
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
+=======
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -416,11 +453,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -430,20 +474,29 @@
 			baseConfigurationReference = 74301AAF5315B84836ACBCC9 /* Pods-Flash Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_ENTITLEMENTS = "Flash Chat/Flash Chat.entitlements";
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+=======
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Flash Chat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbreweries.Flash-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 3.0;
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 			};
 			name = Debug;
 		};
@@ -452,20 +505,29 @@
 			baseConfigurationReference = 920D75E4DAC0964C2C729E6E /* Pods-Flash Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_ENTITLEMENTS = "Flash Chat/Flash Chat.entitlements";
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+=======
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Flash Chat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbreweries.Flash-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 3.0;
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 			};
 			name = Release;
 		};

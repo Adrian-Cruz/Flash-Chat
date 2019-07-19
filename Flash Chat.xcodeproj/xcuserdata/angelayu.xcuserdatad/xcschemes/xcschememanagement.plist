@@ -7,7 +7,11 @@
 		<key>Flash Chat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>7</integer>
+=======
+			<integer>0</integer>
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 		</dict>
 	</dict>
 </dict>

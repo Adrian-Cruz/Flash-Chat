@@ -39,16 +39,32 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         configureTableView()
         
+<<<<<<< HEAD
 
         retrieveMessages()
      
         messageTableView.separatorStyle = .none
    
+=======
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
     }
 
-
+    ///////////////////////////////////////////
     
+<<<<<<< HEAD
     //MARK: - TableView Delegate Methods
+=======
+    //MARK: - TableView DataSource Methods
+    
+    
+    
+    //TODO: Declare cellForRowAtIndexPath here:
+    
+    
+    
+    //TODO: Declare numberOfRowsInSection here:
+    
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -85,10 +101,20 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     //TODO: Declare configureTableView here:
     
+<<<<<<< HEAD
     func configureTableView() {
         messageTableView.rowHeight = UITableViewAutomaticDimension
         messageTableView.estimatedRowHeight = 120.0
         
+=======
+    
+    
+    ///////////////////////////////////////////
+    
+    //MARK:- TextField Delegate Methods
+    
+    
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
 
     }
     
@@ -121,6 +147,11 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     //MARK: - Send & Recieve Messages from Firebase
     
     
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
     @IBAction func sendPressed(_ sender: AnyObject) {
         
         messageTextfield.endEditing(true)
@@ -153,6 +184,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     
+<<<<<<< HEAD
     func retrieveMessages() {
         
         let messageDB = Database.database().reference().child("Messages")
@@ -181,10 +213,14 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     
     ////////////////////////////////////////////////
+=======
+
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
     
     //MARK - Log Out Method
 
     
+<<<<<<< HEAD
     @IBAction func logOutPressed(_ sender: AnyObject) {
         
         do {
@@ -197,6 +233,14 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
             print("error: there was a problem logging out")
         }
 
+=======
+    
+    @IBAction func logOutPressed(_ sender: AnyObject) {
+        
+        //TODO: Log out the user and send them back to WelcomeViewController
+        
+        
+>>>>>>> 6b16244d910d3e6a0e435eb65ce95a2ba6bc8164
     }
     
 
